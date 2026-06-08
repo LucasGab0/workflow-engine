@@ -1,0 +1,102 @@
+{
+  "tasks": [
+    {
+      "id": "task_000000",
+      "name": "Tarefa 0",
+      "urgency": 10,
+      "description": "Etapa 0"
+    },
+    {
+      "id": "task_000001",
+      "name": "Tarefa 1",
+      "urgency": 9,
+      "description": "Etapa 1"
+    },
+    {
+      "id": "task_000002",
+      "name": "Tarefa 2",
+      "urgency": 8,
+      "description": "Etapa 2"
+    },
+    {
+      "id": "task_000003",
+      "name": "Tarefa 3",
+      "urgency": 7,
+      "description": "Etapa 3"
+    },
+    {
+      "id": "task_000004",
+      "name": "Tarefa 4",
+      "urgency": 6,
+      "description": "Etapa 4"
+    },
+    {
+      "id": "task_000005",
+      "name": "Tarefa 5",
+      "urgency": 5,
+      "description": "Etapa 5"
+    },
+    {
+      "id": "task_000006",
+      "name": "Tarefa 6",
+      "urgency": 4,
+      "description": "Etapa 6"
+    },
+    {
+      "id": "task_000007",
+      "name": "Tarefa 7",
+      "urgency": 3,
+      "description": "Etapa 7"
+    },
+    {
+      "id": "task_000008",
+      "name": "Tarefa 8",
+      "urgency": 2,
+      "description": "Etapa 8"
+    },
+    {
+      "id": "task_000009",
+      "name": "Tarefa 9",
+      "urgency": 1,
+      "description": "Etapa 9"
+    }
+  ],
+  "dependencies": [
+    {
+      "from": "task_000001",
+      "to": "task_000000"
+    },
+    {
+      "from": "task_000002",
+      "to": "task_000001"
+    },
+    {
+      "from": "task_000003",
+      "to": "task_000002"
+    },
+    {
+      "from": "task_000004",
+      "to": "task_000003"
+    },
+    {
+      "from": "task_000005",
+      "to": "task_000004"
+    },
+    {
+      "from": "task_000006",
+      "to": "task_000005"
+    },
+    {
+      "from": "task_000007",
+      "to": "task_000006"
+    },
+    {
+      "from": "task_000008",
+      "to": "task_000007"
+    },
+    {
+      "from": "task_000009",
+      "to": "task_000008"
+    }
+  ]
+}
