@@ -1,0 +1,319 @@
+{
+  "tasks": [
+    {
+      "id": "task_000000",
+      "name": "Chain-0",
+      "urgency": 8
+    },
+    {
+      "id": "task_000001",
+      "name": "Chain-1",
+      "urgency": 3
+    },
+    {
+      "id": "task_000002",
+      "name": "Chain-2",
+      "urgency": 3
+    },
+    {
+      "id": "task_000003",
+      "name": "Chain-3",
+      "urgency": 2
+    },
+    {
+      "id": "task_000004",
+      "name": "Chain-4",
+      "urgency": 2
+    },
+    {
+      "id": "task_000005",
+      "name": "Chain-5",
+      "urgency": 1
+    },
+    {
+      "id": "task_000006",
+      "name": "Chain-6",
+      "urgency": 5
+    },
+    {
+      "id": "task_000007",
+      "name": "Chain-7",
+      "urgency": 9
+    },
+    {
+      "id": "task_000008",
+      "name": "Chain-8",
+      "urgency": 1
+    },
+    {
+      "id": "task_000009",
+      "name": "Chain-9",
+      "urgency": 5
+    },
+    {
+      "id": "task_000010",
+      "name": "Chain-10",
+      "urgency": 5
+    },
+    {
+      "id": "task_000011",
+      "name": "Chain-11",
+      "urgency": 1
+    },
+    {
+      "id": "task_000012",
+      "name": "Chain-12",
+      "urgency": 6
+    },
+    {
+      "id": "task_000013",
+      "name": "Chain-13",
+      "urgency": 5
+    },
+    {
+      "id": "task_000014",
+      "name": "Chain-14",
+      "urgency": 6
+    },
+    {
+      "id": "task_000015",
+      "name": "Chain-15",
+      "urgency": 1
+    },
+    {
+      "id": "task_000016",
+      "name": "Chain-16",
+      "urgency": 8
+    },
+    {
+      "id": "task_000017",
+      "name": "Chain-17",
+      "urgency": 7
+    },
+    {
+      "id": "task_000018",
+      "name": "Chain-18",
+      "urgency": 8
+    },
+    {
+      "id": "task_000019",
+      "name": "Chain-19",
+      "urgency": 1
+    },
+    {
+      "id": "task_000020",
+      "name": "Root",
+      "urgency": 10
+    },
+    {
+      "id": "task_000021",
+      "name": "Leaf-21",
+      "urgency": 1
+    },
+    {
+      "id": "task_000022",
+      "name": "Leaf-22",
+      "urgency": 3
+    },
+    {
+      "id": "task_000023",
+      "name": "Leaf-23",
+      "urgency": 5
+    },
+    {
+      "id": "task_000024",
+      "name": "Leaf-24",
+      "urgency": 1
+    },
+    {
+      "id": "task_000025",
+      "name": "Leaf-25",
+      "urgency": 5
+    },
+    {
+      "id": "task_000026",
+      "name": "Leaf-26",
+      "urgency": 3
+    },
+    {
+      "id": "task_000027",
+      "name": "Leaf-27",
+      "urgency": 1
+    },
+    {
+      "id": "task_000028",
+      "name": "Leaf-28",
+      "urgency": 4
+    },
+    {
+      "id": "task_000029",
+      "name": "Isolado-29",
+      "urgency": 1
+    },
+    {
+      "id": "task_000030",
+      "name": "Isolado-30",
+      "urgency": 1
+    },
+    {
+      "id": "task_000031",
+      "name": "Isolado-31",
+      "urgency": 1
+    },
+    {
+      "id": "task_000032",
+      "name": "Isolado-32",
+      "urgency": 1
+    },
+    {
+      "id": "task_000033",
+      "name": "Isolado-33",
+      "urgency": 1
+    },
+    {
+      "id": "task_000034",
+      "name": "Ciclo-A",
+      "urgency": 5
+    },
+    {
+      "id": "task_000035",
+      "name": "Ciclo-B",
+      "urgency": 5
+    },
+    {
+      "id": "task_000036",
+      "name": "Ciclo-C",
+      "urgency": 5
+    }
+  ],
+  "dependencies": [
+    {
+      "from": "task_000001",
+      "to": "task_000000"
+    },
+    {
+      "from": "task_000002",
+      "to": "task_000001"
+    },
+    {
+      "from": "task_000003",
+      "to": "task_000002"
+    },
+    {
+      "from": "task_000004",
+      "to": "task_000003"
+    },
+    {
+      "from": "task_000005",
+      "to": "task_000004"
+    },
+    {
+      "from": "task_000006",
+      "to": "task_000005"
+    },
+    {
+      "from": "task_000007",
+      "to": "task_000006"
+    },
+    {
+      "from": "task_000008",
+      "to": "task_000007"
+    },
+    {
+      "from": "task_000009",
+      "to": "task_000008"
+    },
+    {
+      "from": "task_000010",
+      "to": "task_000009"
+    },
+    {
+      "from": "task_000011",
+      "to": "task_000010"
+    },
+    {
+      "from": "task_000012",
+      "to": "task_000011"
+    },
+    {
+      "from": "task_000013",
+      "to": "task_000012"
+    },
+    {
+      "from": "task_000014",
+      "to": "task_000013"
+    },
+    {
+      "from": "task_000015",
+      "to": "task_000014"
+    },
+    {
+      "from": "task_000016",
+      "to": "task_000015"
+    },
+    {
+      "from": "task_000017",
+      "to": "task_000016"
+    },
+    {
+      "from": "task_000018",
+      "to": "task_000017"
+    },
+    {
+      "from": "task_000019",
+      "to": "task_000018"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000021"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000022"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000023"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000024"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000025"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000026"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000027"
+    },
+    {
+      "from": "task_000020",
+      "to": "task_000028"
+    },
+    {
+      "from": "task_000001",
+      "to": "task_000000"
+    },
+    {
+      "from": "task_000002",
+      "to": "task_000001"
+    },
+    {
+      "from": "task_000035",
+      "to": "task_000034"
+    },
+    {
+      "from": "task_000036",
+      "to": "task_000035"
+    },
+    {
+      "from": "task_000034",
+      "to": "task_000036"
+    }
+  ]
+}

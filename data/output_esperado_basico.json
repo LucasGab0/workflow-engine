@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "total_tasks": 10,
+    "total_dependencies": 9,
+    "nodes_in_graph": 10,
+    "edges_in_graph": 9
+  },
+  "cycle_detection": {
+    "has_cycle": false,
+    "total_cycles_found": 0,
+    "cycles": []
+  },
+  "topological_sort": {
+    "success": true,
+    "tasks_scheduled": 10,
+    "execution_order": [
+      "task_000000",
+      "task_000001",
+      "task_000002",
+      "task_000003",
+      "task_000004",
+      "task_000005",
+      "task_000006",
+      "task_000007",
+      "task_000008",
+      "task_000009"
+    ],
+    "error": null
+  }
+}

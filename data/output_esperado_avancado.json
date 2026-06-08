@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "total_tasks": 37,
+    "total_dependencies": 32,
+    "nodes_in_graph": 37,
+    "edges_in_graph": 32
+  },
+  "cycle_detection": {
+    "has_cycle": true,
+    "total_cycles_found": 1,
+    "cycles": [
+      {
+        "nodes": [
+          "task_000034",
+          "task_000035",
+          "task_000036",
+          "task_000034"
+        ]
+      }
+    ]
+  },
+  "topological_sort": {
+    "success": false,
+    "tasks_scheduled": 34,
+    "execution_order": [
+      "task_000000",
+      "task_000023",
+      "task_000025",
+      "task_000028",
+      "task_000001",
+      "task_000022",
+      "task_000002",
+      "task_000026",
+      "task_000003",
+      "task_000004",
+      "task_000033",
+      "task_000005",
+      "task_000006",
+      "task_000007",
+      "task_000021",
+      "task_000008",
+      "task_000009",
+      "task_000010",
+      "task_000030",
+      "task_000011",
+      "task_000012",
+      "task_000013",
+      "task_000014",
+      "task_000029",
+      "task_000015",
+      "task_000016",
+      "task_000017",
+      "task_000018",
+      "task_000032",
+      "task_000019",
+      "task_000027",
+      "task_000031",
+      "task_000024",
+      "task_000020"
+    ],
+    "error": "Ordenação topológica incompleta: 34/37 tarefas processadas. Ciclo detectado no grafo — abortando execução."
+  }
+}
